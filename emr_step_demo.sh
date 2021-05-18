@@ -9,7 +9,7 @@ mkdir /home/hadoop/.kaggle
 sudo cp /home/hadoop/kaggle.json /home/hadoop/.kaggle/
 
 # cloning repo 
-git clone -b master https://github.com/kazam1920/png_to_jpg.git /home/hadoop/png_to_jpg
+git clone -b master https://github.com/chandramouliravi/kagglepicemr.git /home/hadoop/png_to_jpg
 
 # downloading dataset from kaggle
 ~/.local/bin/kaggle datasets download kmader/rsna-bone-age --path /home/hadoop/raw_data --unzip
