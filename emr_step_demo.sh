@@ -2,7 +2,7 @@
 cd /home/hadoop/
 
 # downloading kaggle.json from s3 
-aws s3 cp s3://bootstrap-and-emr-stbinep-demo-rcm/kaggle.json /home/hadoop/kaggle.json
+aws s3 cp s3://bootstrap-and-emr-step-demo-rcm/kaggle.json /home/hadoop/kaggle.json
 
 #configuring kaggle for downloading dataset 
 mkdir /home/hadoop/.kaggle
